@@ -17,7 +17,7 @@ Created by **Waterlemon**.
 
 ### Install from Chrome Web Store
 
-Please visit https://chromewebstore.google.com/detail/hjllkpoanddmlfdkpknfdokcigppmnhf?utm_source=item-share-cb
+Please visit https://chromewebstore.google.com/detail/hjllkpoanddmlfdkpknfdokcigppmnhf?utm_source=item-share-cb.
 
 ### Install manually
 
