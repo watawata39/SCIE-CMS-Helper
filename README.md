@@ -14,11 +14,11 @@ Created by **Waterlemon**.
 
 ## Installation
 
-# Install from Chrome Web Store
+### Install from Chrome Web Store
 
 Please visit https://chromewebstore.google.com/detail/hjllkpoanddmlfdkpknfdokcigppmnhf?utm_source=item-share-cb
 
-# Install manually
+### Install manually
 
 1. **Clone or download** this repository.
 2. Open Chrome and go to **`chrome://extensions/`**.
