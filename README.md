@@ -19,7 +19,7 @@ Created by **Waterlemon**.
 
 Please visit https://chromewebstore.google.com/detail/hjllkpoanddmlfdkpknfdokcigppmnhf?utm_source=item-share-cb.
 
-### Install manually
+### Install Manually
 
 1. **Clone or download** this repository.
 2. Open Chrome and go to **`chrome://extensions/`**.
