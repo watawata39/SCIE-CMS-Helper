@@ -24,7 +24,7 @@ Please visit https://chromewebstore.google.com/detail/hjllkpoanddmlfdkpknfdokcig
 1. **Clone or download** this repository.
 2. Open Chrome and go to **`chrome://extensions/`**.
 3. **Enable "Developer mode"** (top right corner).
-4. Click **"Load unpacked"** and select the `my-extension/` directory.
+4. Click **"Load unpacked"** and select the extension's root directory.
 
 ## Features
 
