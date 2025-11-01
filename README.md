@@ -1,5 +1,5 @@
 # SCIE CMS Helper
-Chrome extension to Automate Booking on the Content Management System (CMS) of Shenzhen College of International Education (SCIE).
+Chrome extension to Automate Booking on the Content Management System (CMS) of *Shenzhen College of International Education (SCIE)*.
 
 ## Guide for Lazyheads
 
