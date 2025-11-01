@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "SCIE CMS Helper",
+  "version": "3.0",
+  "description": "Makes your life easier when using SCIE's rubbish CMS. Created by Waterlemon.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "webRequest",
+    "storage"
+  ],
+  "host_permissions": [
+      "*://*.alevel.com.cn/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SCIE CMS Helper"
+  },
+  "icons": {
+    "256": "icons/cmshelper_256.png",
+    "128": "icons/cmshelper_128.png",
+    "48": "icons/cmshelper_48.png",
+    "16": "icons/cmshelper_16.png"
+  }
+}

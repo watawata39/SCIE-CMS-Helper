@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCIE CMS Helper</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        body {
+            width: 300px;
+            min-height: 200px;
+            margin: 0;
+            padding: 16px;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--chrome-background);
+            color: var(--chrome-text);
+            font-size: 13px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--chrome-border);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--chrome-text);
+        }
+
+        .header p {
+            margin: 4px 0 0 0;
+            font-size: 11px;
+            color: var(--chrome-text-secondary);
+        }
+
+        .section {
+            background: var(--chrome-section-background);
+            border: 1px solid var(--chrome-border);
+            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 500;
+            margin: 0 0 8px 0;
+            color: var(--chrome-text);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .reason-select {
+            width: 100%;
+            padding: 6px 8px;
+            border: 1px solid var(--chrome-border);
+            border-radius: 3px;
+            background: var(--chrome-input-background);
+            color: var(--chrome-text);
+            font-size: 13px;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+        }
+
+        .reason-select:focus {
+            outline: none;
+            border-color: var(--chrome-focus);
+            box-shadow: 0 0 0 1px var(--chrome-focus);
+        }
+
+        .instruction-text {
+            font-size: 12px;
+            line-height: 1.4;
+            color: var(--chrome-text-secondary);
+            text-align: center;
+        }
+
+        .status {
+            text-align: center;
+            font-size: 11px;
+            margin-top: 4px;
+            color: var(--chrome-text-secondary);
+        }
+
+        .success {
+            color: var(--chrome-success);
+        }
+
+        .error {
+            color: var(--chrome-error);
+        }
+
+        .feedback-section {
+            margin-top: 8px;
+            padding: 8px 0;
+            border-top: 1px solid var(--chrome-border);
+        }
+
+        .feedback-text {
+            font-size: 11px;
+            line-height: 1.4;
+            color: var(--chrome-text-secondary);
+            text-align: center;
+        }
+
+        .feedback-link {
+            color: var(--chrome-focus);
+            text-decoration: none;
+        }
+
+        .feedback-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Light theme */
+        @media (prefers-color-scheme: light) {
+            :root {
+                --chrome-background: #ffffff;
+                --chrome-text: #202124;
+                --chrome-text-secondary: #5f6368;
+                --chrome-border: #dadce0;
+                --chrome-section-background: #f8f9fa;
+                --chrome-input-background: #ffffff;
+                --chrome-focus: #1a73e8;
+                --chrome-success: #137333;
+                --chrome-error: #d93025;
+            }
+        }
+
+        /* Dark theme */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --chrome-background: #202124;
+                --chrome-text: #e8eaed;
+                --chrome-text-secondary: #9aa0a6;
+                --chrome-border: #3c4043;
+                --chrome-section-background: #292a2d;
+                --chrome-input-background: #202124;
+                --chrome-focus: #8ab4f8;
+                --chrome-success: #81c995;
+                --chrome-error: #f28b82;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SCIE CMS Helper</h1>
+        <p>Automate your room booking</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Booking Reason</div>
+        <input type="text" id="reasonInput" class="reason-select" placeholder="Enter booking reason..." title="Enter booking reason">
+        <div id="status" class="status"></div>
+    </div>
+
+    <div class="section">
+        <div class="instruction-text">
+            <strong>How to book a room:</strong><br>
+            Go to <strong>Resource → Available Classroom → Room Booking</strong>
+        </div>
+    </div>
+
+    <div class="feedback-section">
+        <div class="feedback-text">
+            I'm soooo curious how people discovered this extension. If you don't mind, please take a moment to fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLScA6MQL52-36gDu8D0_Kpgezrw_yYQyPCzcSmR7DzWzQYTsMg/viewform?usp=header" target="_blank" class="feedback-link">quick form!</a>
+        </div>
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>
