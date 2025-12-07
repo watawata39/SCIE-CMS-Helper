@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "SCIE CMS Helper",
-  "version": "3.0",
-  "description": "Makes your life easier when using SCIE's rubbish CMS. Created by Waterlemon.",
+  "version": "3.1",
+  "description": "Makes your life easier when using SCIE's rubbish CMS.",
   "permissions": [
     "scripting",
     "activeTab",

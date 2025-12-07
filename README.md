@@ -8,10 +8,7 @@ Chrome extension to Automate Booking on the Content Management System (CMS) of *
 
 ## About
 
-CMS Helper is a Chrome extension designed to make your life **less miserable** when dealing with the **atrocious** SCIE CMS. It focuses solely on improving the room booking process because, frankly, that's what needed fixing the most.
-
-Built with **frustration, determination, and a touch of hatred** towards SCIE’s inefficient CMS.  
-Created by **Waterlemon**.
+CMS Helper is a Chrome extension designed to make your life **less miserable** when dealing with the **atrocious** SCIE CMS. Built with **frustration** towards SCIE’s inefficient CMS.  
 
 ## Installation
 
